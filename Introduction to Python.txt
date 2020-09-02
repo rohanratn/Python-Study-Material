@@ -1,0 +1,115 @@
+Introduction to Python
+
+- Python is a general purpose programming language.
+- It is a high level prog. lang.
+- Developed by Guido Van Rossum in 1989 at National Research Institue in Netherlands.
+- It was officially made public on 20-02-1991
+
+
+- In python, We do non need to specify the datatypes to a variable.
+	based on passed value, python assigns the datatype.
+	
+	example :   
+				>>>  a=10
+				>>>  type(a)
+				<class 'int'>
+				
+- whenever you assign different value to the variable,
+	python automatically changes the datatype.
+	
+	example :  
+				>>> a=True
+				>>> type(a)
+				<class 'bool'>
+
+This is the reason that python is also called as dynamically typed programming language.
+
+- The name 'Python' derived from a TV show 'Monty Python's Flying Circus'
+
+Python was developed by using following functionalities from different languages.
+	
+	1. Functional programming from c
+	2. Oop concepts from c++
+	3. Scripting language features from Perl and shell script.
+	4. Modular programming features from Modula-3
+	5. Syntaxes borrowed from C and ABC language.
+	
+
+- We can use python in so many areas as follows.
+
+	1. Desktop Applications
+	2. Web applications (Django)
+	3. Database applications
+	4. Networking
+	5. Games.
+	6. Data science
+	7. Machine learning
+	8. Artificial Intelligence.
+	9. Internet of things
+	
+- Copmanies like google, microsoft, youtube, dropbox, NASA uses python.
+
+
+- Features of Python
+	1. Simple and easy to learning.
+	2. free and open source software.
+	3. high level programming language.
+	4. platform independendt code.
+	5. portability.
+	6. Dynamically typed language.
+	7. Object oriented language.
+	8. Interpreted language.
+	9. Extensible language.
+	10. Embedded language.
+	11. Rich library support.
+	
+- Limitations of python 
+	1. Performance 
+	2. Not able to create Mobile applications
+	
+- Myths about python 
+	It is not suitable for large scale enterprise applications.
+
+- Flavours of python
+	1. CPython ( c Python )
+	2. Jython  ( for java)
+	3. IronPython ( for c#)
+	4. PyPy ( good performance than python)
+	5. Ruby python ( for ruby)
+	6. Anaconda Python ( big data apps )
+	7. Stackless ( concurrency and multithreading)
+
+- Versions of python 
+	Python 1.0	jan 1994
+	Python 2.0	Oct 2000
+	Python 3.0	Dec 2008
+	Python 3.6	2016
+	
+- Note : Python doesnt support backward compatibility
+		i.e, Python 2.7 programs won't run in python 3.6
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
