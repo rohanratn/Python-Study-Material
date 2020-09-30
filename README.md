@@ -10,7 +10,7 @@
 
 4. [Datatypes](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Datatypes.md)
 
-5. [Type casting functions](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/type%20casting%20functions..md)
+5. [Type casting functions](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/type%20casting%20functions.md)
 
 6. [List](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/List%20in%20detail.md)
 
