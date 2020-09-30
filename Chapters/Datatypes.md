@@ -21,22 +21,22 @@ we can use digits from 0 to 9 to specify int value.
 ### Binary	:
 We need to explicitely declare the binary value using \"0b or 0B\"
 ```
->>>	a=0b1111
->>>	b=0B1111
+>>> a=0b1111
+>>> b=0B1111
 >>> type(a)
 <class 'int'>
 ```		
 Note : When you pass binary to int datatype, it automatically converts binary to int.
 ```
->>>	a=0b1111
+>>> a=0b1111
 >>> print(a)
 15
 ```
 ### Octal :
 We need to explicitely declare the octal value using \"0o or 0O\".
 ```
->>>	a=0o1234
->>>	b=-O1234
+>>> a=0o1234
+>>> b=-O1234
 >>> print(a)
 668
 ```
@@ -68,10 +68,10 @@ We Can convert base of an int value to any of above type using following functio
 -	The only way to represent float values is using decimal values.
 -	binary, octal, hexadecimal values are not allowed.
 ```
->>>	f=123.456	# allowed
->>>	f= 0b1111	# not allowed
->>>	f=0xFACE	# not allowed
->>>	f=0o1234	# not allowed
+>>> f=123.456	# allowed
+>>> f= 0b1111	# not allowed
+>>> f=0xFACE	# not allowed
+>>> f=0o1234	# not allowed
 >>> f=123e3		# exponential form is allowed. e3 = 10^3
 ```				
 ## Complex Datatype
@@ -85,8 +85,8 @@ where,
 	j= underroot -1
 Example : 
 ```
->>>	x=10+2j
->>>	type(x)
+>>> x=10+2j
+>>> type(x)
 <class 'complex'>
 
 x=10+2R		# not allowed	
@@ -100,7 +100,7 @@ x=10+2.2j	# allowed
 To get real and imaginary part of a complex number,
 ```
 >>> x=10+2j
->>>	x.real
+>>> x.real
 10
 >>> x.imag
 2.0
@@ -153,7 +153,7 @@ ratnaparkhi'''
 
 ## Slice operator
 
-**syntax :** str[begin:end:step]
+**syntax :** str['begin':'end':'step']
 
 Example :
 ```
@@ -178,8 +178,309 @@ Example :
 'rhn'
 >>> 
 ```
+
+## bytes Datatype
+
+\- It represents a group of byte numbers just like an array.
+
+### Note : It can be used for numbers in range of 0 to 256
+
+Example :
+```
+>>> a=[1,2,3,4]
+>>> b=bytes(a)
+>>> b
+b'\x01\x02\x03\x04'		# machine readable only
+>>> 
+```
+To print elements 
+```
+>>> for i in b : print(i)
+
+1
+2
+3
+4
+>>> 
+```
+We can use only numbers between 0 to 256, otherwise we will get compile time error.
+```
+>>> a=[1,2,3,257]
+>>> b=bytes(a)
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    b=bytes(a)
+ValueError: bytes must be in range(0, 256)
+>>> 
+```
+
+\- Bytes datatype is immutable. We cannot change the contents afterwards.
+Example :
+```
+>>> a=[1,2,3,4]
+>>> b=bytes(a)
+>>> b[1]
+2
+>>> b[1]=6
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    b[1]=6
+TypeError: 'bytes' object does not support item assignment
+>>> 
+```
+
+## bytearray Datatype	
 	
-	
-	
-	
-	
+\- bytearray datatype is exactly same as bytes datatype with only difference that bytearray is mutable.
+
+\- We can change contents of bytearray	
+Example :
+```
+>>> a=[1,2,3,4]
+>>> b=bytearray(a)
+>>> b
+bytearray(b'\x01\x02\x03\x04')
+>>> b[1]
+2
+>>> b[1]=5
+>>> b[1]
+5
+>>> for i in b: print(i)
+
+1
+5
+3
+4
+>>> 
+```
+
+## list datatype
+
+\- we can store heterogeneous data elements in a single list
+
+\- Insertion order is preserved and duplicates are allowed in list.
+
+\- List is a mutable datatype. We can change the contents of list.
+
+Syntax :
+```
+>>> list_name=[element1, element 2......]
+```
+### Note : items in list are separated by comma.
+
+Example :
+```
+>>> my_list=[1,2,3.4,10+20j]
+>>> my_list=[1,2,3.4,10+20j, 'Python']		# Heterogeneous elements
+>>> type(my_list)
+<class 'list'>
+>>> for i in my_list: print(i)
+
+1
+2
+3.4
+(10+20j)
+Python
+>>> 
+```
+
+\- First element is present at list[0] position and last is present at list[-1]
+
+\- List supports negative indexing
+
+Example :
+```
+>>> my_list
+[1, 2, 3.4, (10+20j), 'Python']
+>>> my_list[0]
+1
+>>> my_list[-1]
+'Python'
+>>> my_list[-3]
+3.4
+>>> 
+```
+We can perform various operations on/with list datatype.
+We will see list in details in list chapter.
+
+## tuple datatype
+
+\- tuple is same as list with only different being it is immutable. We cannot change the content of tuple.
+
+\- Insertion order is preserved in tuple.
+
+\- Duplicates are allowed.
+
+\- Heterogeneous elements are allowed.
+
+**Syntax :** 
+```
+tuple_name=() 
+```
+Example :
+```
+>>> my_tuple=(1,2,3.4,True, 'python')
+>>> type(my_tuple)
+<class 'tuple'>
+>>> my_tuple
+(1, 2, 3.4, True, 'python')
+>>> 
+```
+\- A tuple can have list as object and that list is muable.
+Example :
+```
+>>> my_tuple=(1,2,3,[4,5,6,7])
+>>> my_tuple
+(1, 2, 3, [4, 5, 6, 7])
+>>> my_tuple[3][1]
+5
+>>> my_tuple[3][1]=8      #  changed the content of list
+>>> my_tuple
+(1, 2, 3, [4, 8, 6, 7])
+>>> 
+```
+We will see tuple in detail in tuple chapter.
+
+## range Datatype
+
+\- Range datatype represent a sequence of values. IT is always immutable. we cannot change the values.
+
+There are 3 format to specify a range.
+
+1. range(end_val)
+
+Example : 
+```
+>>> range(10)
+range(0, 10)
+>>> for i in range(10) : print (i)
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> 
+```
+
+### Note : when only one value is given in range function, it starts the range from 0 to passed value.
+
+2. range(start_val,end_val)
+
+Example :
+```
+>>> for i in range(10,20) : print (i)
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+>>> 
+```
+
+### Note : when 2 values are given in range function, it starts the range from first to last value.
+### If first value is lesser than second, it shows nothing.
+
+3. range(start_val,end_val,step)
+
+Example :
+```
+>>> for i in range(10,50,5) : print (i)
+
+10
+15
+20
+25
+30
+35
+40
+45
+>>> 
+```
+
+### Note : step value will be added in each iteeration.
+### float values cannot be used in range().
+
+## Set Datatype
+
+Syntax :
+```
+set_name={val1,val2...}
+```
+Example :
+```
+>>> my_set={1,2,3,4}
+>>> type(my_set)
+<class 'set'>
+>>> 
+```
+\- Insertion order is preserved in set.
+
+\- Duplicates are not allowed.
+
+\- Set objects are not subscriptable
+
+Example :
+```
+>>> my_set[1]
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    my_set[1]
+TypeError: 'set' object is not subscriptable
+>>> 
+```
+
+\- slicing is not allowed
+
+Example :
+```
+>>> my_set[1:2]
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    my_set[1:2]
+TypeError: 'set' object is not subscriptable
+>>> 
+```
+
+\- Heterogeneous objects are allowed
+
+Example :
+```
+>>> my_set={1,2.3,'python',True}
+>>> my_set
+{2.3, 1, 'python'}
+>>> 
+```
+
+\- Set is a growable datatype. We can add new elements in set according to need.
+We will see more about set in details in Set chapter.
+
+## Frozenset Datatype
+
+\- Frozenset is exactly same as set with immutability.
+
+Example :
+```
+>>> my_set
+{2.3, 1, 'python'}
+>>> fs=frozenset(my_set)
+>>> fs
+frozenset({2.3, 1, 'python'})
+>>> fs.add(2)                   # We cannot add or remove elements of frozenset
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    fs.add(2)
+AttributeError: 'frozenset' object has no attribute 'add'
+>>> 
+```
