@@ -4,7 +4,7 @@
 
 1. [Introduction to python](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Introduction%20to%20Python.md) 
 
-2. [How to install and setup Python]()
+2. [How to install and setup Python](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/How%20to%20install%20and%20setup%20python.md)
 
 3. [Fundamentals of Python](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Fundamentals%20of%20Python.md)
 
