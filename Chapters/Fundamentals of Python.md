@@ -77,19 +77,24 @@ Boolean|bool
 Binary|bytes, bytearray, memoryview
 Null|None
 
-To check a type of object, we can use type() function.
+\- To check a type of object, we can use type() function.
+
+\- We will learn datatypes in detail in [Datatypes](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Datatypes.md) chapter.
+
 
 # Operators
 
-\- There are 7 categories of operators in Python as follows.
+\- Please click the link to learn about operators in detail
+
+\- Following are categories of operators in Python as follows.
 
 Category|Operator
 --------|--------
-Arithmetic| +, -, *, /, %
-Relational/Comparison|>, >=, <, <=, 
-Equality | ==, !=
-Logical| and, or, not
-Bitwise| &, \|, ^, ~, <<, >>
-Assignment | =
-Special| //, **, ternary
+[Arithmetic](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Arithmetic%20operators.md)| +, -, *, /, %
+[Relational/Comparison](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Relational%20operators.md)|>, >=, <, <=, 
+[Equality](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Equality%20Operator.md) | ==, !=
+[Logical](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Logical%20operator.md)| and, or, not
+[Bitwise](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Bitwise%20operators.md)| &, \|, ^, ~, <<, >>
+[Assignment](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Assignment%20operator.md) | =
+[Special](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Special%20operators.md)| //, **, ternary
 

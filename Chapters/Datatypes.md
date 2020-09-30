@@ -301,7 +301,7 @@ Example :
 >>> 
 ```
 We can perform various operations on/with list datatype.
-We will see list in details in list chapter.
+Check [Lists](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/List%20in%20detail.md) chapter. 
 
 ## tuple datatype
 
@@ -339,7 +339,8 @@ Example :
 (1, 2, 3, [4, 8, 6, 7])
 >>> 
 ```
-We will see tuple in detail in tuple chapter.
+We can perform various operations on/with list datatype.
+Check [tuple](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Tuple%20in%20detail.md) chapter. 
 
 ## range Datatype
 
@@ -464,7 +465,7 @@ Example :
 ```
 
 \- Set is a growable datatype. We can add new elements in set according to need.
-We will see more about set in details in Set chapter.
+Check [Sets in details](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/set%20in%20detail.md).
 
 ## Frozenset Datatype
 
@@ -482,5 +483,48 @@ Traceback (most recent call last):
   File "<pyshell#37>", line 1, in <module>
     fs.add(2)
 AttributeError: 'frozenset' object has no attribute 'add'
+>>> 
+```
+Check [forzenset in details](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/frozenset%20in%20detail.md).
+
+## dict Datatype
+
+**Syntax :**
+```
+dict_name={key:value,key:value}
+```
+
+\- Insertion order is preserved in a dictionary.
+
+\- Duplicate keys are not allowed but duplicate values are allowed.
+
+\- Heterogeneous values are allowed.
+
+\- Dictionary is mutable. We can add/remove elements from dictionary.
+
+Example :
+```
+>>> my_dict={1:'a',2:'b',3:'c'}
+>>> my_dict
+{1: 'a', 2: 'b', 3: 'c'}
+>>> my_dict[1]
+'a'
+```
+\- check [dictionary](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/dict%20in%20detail.md) chapter to learn details of dictionaries.
+
+## None datatype
+
+\- None is equivalent to null or void.
+
+\- when a function doesn't return anything, it returns None.
+
+Example :
+```
+>>> def my_function():
+	a=10
+
+	
+>>> print(my_function())
+None
 >>> 
 ```
