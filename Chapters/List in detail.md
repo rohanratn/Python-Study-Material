@@ -147,17 +147,18 @@ Example :
 >>> 
 ```
 
-9. sort(key=None, reverse=False)
+### 9. sort(key=None, reverse=False)
 
 \- Sorts the items of the list in place. The arguments can be used to customize the operation.
 
 \- key
-
-    Specifies a function of one argument that is used to extract a comparison key from each list element. The default value is None (compares the elements directly.
-
+```
+Specifies a function of one argument that is used to extract a comparison key from each list element. The default value is None (compares the elements directly.
+```
 \- reverse
-
-    Boolean value. If set to True, then the list elements are sorted as if each comparison were reversed. 
+```
+Boolean value. If set to True, then the list elements are sorted as if each comparison were reversed. 
+```
 
 Example 1 :
 ```
