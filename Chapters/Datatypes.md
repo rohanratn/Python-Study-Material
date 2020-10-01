@@ -426,7 +426,7 @@ Example :
 <class 'set'>
 >>> 
 ```
-\- Insertion order is preserved in set.
+\- Insertion order is not preserved in set.
 
 \- Duplicates are not allowed.
 
@@ -485,7 +485,7 @@ Traceback (most recent call last):
 AttributeError: 'frozenset' object has no attribute 'add'
 >>> 
 ```
-Check [forzenset in details](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/frozenset%20in%20detail.md).
+Check [frozenset in details](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/frozenset%20in%20detail.md).
 
 ## dict Datatype
 

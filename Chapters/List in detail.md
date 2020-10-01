@@ -153,7 +153,8 @@ Example :
 
 \- key
 ```
-Specifies a function of one argument that is used to extract a comparison key from each list element. The default value is None (compares the elements directly.
+Specifies a function of one argument that is used to extract a comparison key from each list element. 
+The default value is None (compares the elements directly.
 ```
 \- reverse
 ```
