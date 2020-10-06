@@ -301,7 +301,7 @@ Example :
 >>> 
 ```
 We can perform various operations on/with list datatype.
-Check [Lists](src\Chapters\List_in_detail.md) chapter. 
+Check [Lists](List_in_detail.md) chapter. 
 
 ## tuple datatype
 
@@ -340,7 +340,7 @@ Example :
 >>> 
 ```
 We can perform various operations on/with list datatype.
-Check [tuple](src\Chapters\Tuple_in_detail.md) chapter. 
+Check [tuple](Tuple_in_detail.md) chapter. 
 
 ## range Datatype
 
@@ -465,7 +465,7 @@ Example :
 ```
 
 \- Set is a growable datatype. We can add new elements in set according to need.
-Check [Sets in details](src\Chapters\sets_in_detail.md).
+Check [Sets in details](sets_in_detail.md).
 
 ## Frozenset Datatype
 
@@ -485,7 +485,7 @@ Traceback (most recent call last):
 AttributeError: 'frozenset' object has no attribute 'add'
 >>> 
 ```
-Check [frozenset in details](src\Chapters\frozenset_in_detail.md).
+Check [frozenset in details](frozenset_in_detail.md).
 
 ## dict Datatype
 
@@ -510,7 +510,7 @@ Example :
 >>> my_dict[1]
 'a'
 ```
-\- check [dictionary](src\Chapters\Dictionaries_in_detail.md) chapter to learn details of dictionaries.
+\- check [dictionary](Dictionaries_in_detail.md) chapter to learn details of dictionaries.
 
 ## None datatype
 
