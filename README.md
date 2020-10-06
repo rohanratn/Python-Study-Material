@@ -2,35 +2,51 @@
 
 ## Table of contents
 
-1. [Introduction to python](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Introduction%20to%20Python.md) 
+### 1. Getting Started
 
-2. [How to install and setup Python](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/How%20to%20install%20and%20setup%20python.md)
+* [Introduction to python](/src/Chapters/Introduction_to_Python.md) 
 
-3. [Fundamentals of Python](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Fundamentals%20of%20Python.md)
+* [How to install and setup Python](src/ChaptersHow_to_setup_and_install_Python)
 
-4. [Datatypes](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Datatypes.md)
+* [Fundamentals of Python](src/Chapters//Fundamentals_of_Python.md)
 
-5. [Type casting functions](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/type%20casting%20functions.md)
+### 2. [Datatypes](src/Chapters/Datatypes.md)
 
-6. [List](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/List%20in%20detail.md)
+### 3. [Type casting functions](src/Chapters/Type_casting_functions.md)
 
-7. [Tuple](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Tuple%20in%20detail.md)
+### 4. [List](src/Chapters/List_in_detail.md)
 
-8. [Dictionaries](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/dict%20in%20detail.md)
+### 5. [Tuple](src/Chapters/Tuple_in_detail.md)
 
-9. [Sets](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/set%20in%20detail.md)
+### 6. [Dictionaries](src/Chapters/Dictionaries_in_detail.md)
 
-10. [Frozenset](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/frozenset%20in%20detail.md)
+### 7. [Sets](src/Chapters/sets_in_detail.md)
 
-11. [Arithmetic Operators](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Arithmetic%20operators.md)
+### 8. [Frozenset](src/Chapters/frozenset_in_detail.md)
 
-12. [Assignment Operator](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Assignment%20operator.md)
+### 9. Operators
 
-13. [Relational Operators](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Relational%20operators.md)
+* [Arithmetic Operators](src/Chapters/Arithmetic_operators.md)(`+`,`-`,`*`,`/`,`%`,`//`,`**`)
 
-14. [Bitwise Operators](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Bitwise%20operators.md)
+* [Assignment Operator](src/Chapters/Assignment_operator.md)(`=`)
 
-15. [Special Operators](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Special%20operators.md)
+* [Relational Operators](src/Chapters/ChaptersRelational_operators.md)(`<`,`<=`,`>`,`>=`)
 
-16. [Logical Operators](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Logical%20operator.md)
+* [Logical Operators](src/Chapters/Logical_operators.md)(`and`,`or`,`not`)
+
+* [Bitwise Operators](src/Chapters/Bitwise_operators.md)(`&`,`|`,`~`,`^`,`<<`,`>>`)
+
+* [Special Operators](src/Chapters/Special_operators.md)(`is`,`is not`,`in`, `not in`)
+
+* [Operator Precedence](src/Chapters/Operators_precedence)
+
+### 10. Control Flow 
+
+* [The `if` statement](src/Chapters/IF_statement.md)
+* [The `for` statement](src/Chapters/FOR_statement.md)
+* [The `while` statement](src/Chapters/WHILE_statement.md)
+* [The `try` statement](src/Chapters/TRY_statement.md)
+* [The `break` statement](src/Chapters/BREAK_statement.md)
+* [The `continue` statement](src/Chapters/CONTINUE_statement.md)
+
 
