@@ -18,7 +18,7 @@ dict_name={key:value,key:value}
 \- Dictionary is mutable. We can add/remove elements from dictionary.
 
 Example :
-```
+```python
 >>> my_dict={1:'a',2:'b',3:'c'}
 >>> my_dict
 {1: 'a', 2: 'b', 3: 'c'}
@@ -32,7 +32,7 @@ Example :
 \- Removes all the elements from the dictionary
 
 Example :
-```
+```python
 >>> my_dict={1:'hello', 2:'world', 3:'python', 4:'programming'}
 >>> my_dict
 {1: 'hello', 2: 'world', 3: 'python', 4: 'programming'}
@@ -46,7 +46,7 @@ Example :
 \- Returns a copy of the dictionary
 
 Example :
-```
+```python
 >>> my_dict={1:'hello', 2:'world', 3:'python', 4:'programming'}
 >>> my_dict
 {1: 'hello', 2: 'world', 3: 'python', 4: 'programming'}
@@ -60,7 +60,7 @@ Example :
 \- Returns a dictionary with the specified keys and value
 
 Example :
-```
+```python
 >>> keys=(1,2,3,4)
 >>> value='a'
 >>> my_dict=dict.fromkeys(keys,value)
@@ -73,7 +73,7 @@ Example :
 \- Returns the value of the specified key
 
 Example :
-```
+```python
 >>> my_dict={1:'hello', 2:'world', 3:'python', 4:'programming'}
 >>> my_dict.get(2)
 'world'
@@ -84,7 +84,7 @@ Example :
 \- Returns a list containing a tuple for each key value pair
 
 Example :
-```
+```python
 >>> my_dict
 {1: 'hello', 2: 'world', 3: 'python', 4: 'programming'}
 >>> my_list=my_dict.items()
@@ -97,7 +97,7 @@ dict_items([(1, 'hello'), (2, 'world'), (3, 'python'), (4, 'programming')])
 \- Returns a list containing the dictionary's keys
 
 Example :
-```
+```python
 >>> my_dict
 {1: 'hello', 2: 'world', 3: 'python', 4: 'programming'}
 >>> my_list=my_dict.keys()
@@ -110,7 +110,7 @@ dict_keys([1, 2, 3, 4])
 \- Removes the element with the specified key
 
 Example :
-```
+```python
 >>> my_dict
 {1: 'hello', 2: 'world', 3: 'python', 4: 'programming'}
 >>> my_dict.pop(2)
@@ -124,7 +124,7 @@ Example :
 \- Removes the last inserted key-value pair
 
 Example :
-```
+```python
 >>> my_dict
 {1: 'hello', 3: 'python', 4: 'programming'}
 >>> my_dict.popitem()
@@ -138,7 +138,7 @@ Example :
 \- Returns the value of the specified key. If the key does not exist: insert the key, with the specified value.
 
 Example :
-```
+```python
 >>> car = {  "brand": "Ford",  "year": 1964}
 >>> x = car.setdefault("model", "Bronco")
 >>> print(x)
@@ -150,7 +150,7 @@ Bronco
 \- Updates the dictionary with the specified key-value pairs.
 
 Example :
-```
+```python
 >>> car
 {'brand': 'Ford', 'year': 1964, 'model': 'Bronco'}
 >>> car.update('color':'yellow')
@@ -164,7 +164,7 @@ Example :
 \- Returns a list of all the values in the dictionary.
 
 Example :
-```
+```python
 >>> car.values()
 dict_values(['Ford', 1964, 'Bronco', 'yellow'])
 >>> 

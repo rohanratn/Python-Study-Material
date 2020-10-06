@@ -13,7 +13,7 @@ Syntax :
 ### Note : items in list are separated by comma.
 
 Example :
-```
+```python
 >>> my_list=[1,2,3.4,10+20j]
 >>> my_list=[1,2,3.4,10+20j, 'Python']		# Heterogeneous elements
 >>> type(my_list)
@@ -40,7 +40,7 @@ Following are functions provided for list operations
 \- append() method adds an element at the end of the list.
 
 Example :
-```
+```python
 >>> my_list=[1,2,3,4]
 >>> my_list
 [1, 2, 3, 4]
@@ -57,7 +57,7 @@ Example :
 \- extend() method allowes user to add multiple elements at the end of the list. in other words, it can be used to join two or more lists.
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 3, 4, 5, 8]
 >>> my_list.extend(['hello','world'])
@@ -72,7 +72,7 @@ Example :
 \- first argument is the position and second argument is value.
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 3, 4, 5, 8, 'hello', 'world']
 >>> my_list.insert(2,"python")
@@ -85,7 +85,7 @@ Example :
 \- Removes the first item from the list that has a value of x. Returns an error if there is no such item.
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 'python', 3, 4, 5, 8, 'hello', 'world']
 >>> my_list.remove(3)
@@ -96,7 +96,7 @@ Example :
 
 ### 5. pop(i)
 \- Removes the item at the given position in the list, and returns it. If no index is specified, pop() removes and returns the last item in the list.
-```
+```python
 >>> my_list
 [1, 2, 'python', 4, 5, 8, 'hello', 'world']
 >>> my_list.pop(2)
@@ -114,7 +114,7 @@ Example :
 \- Removes all items from the list. Equivalent to del a[:].
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 4, 5, 8, 'hello']
 >>> my_list.clear()
@@ -127,7 +127,7 @@ Example :
 \- Returns the position of the first list item that has a value of x. Raises a ValueError if there is no such item.
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 3, 4, 5, 6, 7, 8, 'python', 'hello', 'world']
 >>> my_list.index('python')
@@ -139,7 +139,7 @@ Example :
 \- Returns the number of times x appears in the list.
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 3, 4, 5, 6, 7, 8, 'python', 'hello', 'world', 2, 3, 2, 4, 2]
 >>> my_list.count(2)
@@ -162,7 +162,7 @@ Boolean value. If set to True, then the list elements are sorted as if each comp
 ```
 
 Example 1 :
-```
+```python
 >>> my_list=[6,3,5,2,7,1,4]
 >>> my_list
 [6, 3, 5, 2, 7, 1, 4]
@@ -175,7 +175,7 @@ Example 1 :
 ```
 
 Example 2 :
-```
+```python
 >>> my_list=['Python','hello','transformers', 'bee']
 >>> my_list
 ['Python', 'hello', 'transformers', 'bee']
@@ -188,7 +188,7 @@ Example 2 :
 \- It reverses the list.
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 3, 4, 5, 6, 7, 8]
 >>> my_list.reverse()
@@ -202,7 +202,7 @@ Example :
 \- Returns a shallow copy of the list
 
 Example :
-```
+```python
 >>> copy_list=my_list.copy()
 >>> copy_list
 [8, 7, 6, 5, 4, 3, 2, 1]

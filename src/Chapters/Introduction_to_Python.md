@@ -9,7 +9,7 @@
 In python, We do not need to specify the datatypes to a variable. Based on passed value, python assigns the datatype.
 
 ## Example :
-```	
+```python	
 >>> int_type=10
 >>> float_type=20.5
 >>> complex_type=10+2j
@@ -40,7 +40,7 @@ In python, We do not need to specify the datatypes to a variable. Based on passe
 
 whenever you assign different value to the variable, python automatically changes the datatype.
 ## Example :
-```	
+```python	
 >>> int_type='Python'
 >>> type(int_type)
 <class 'str'>

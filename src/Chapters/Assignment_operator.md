@@ -3,7 +3,7 @@
 \- We can use equals to sign(=) to assign the values to variables.
 
 ### Example :
-```
+```python
 >>> x='hello'
 >>> y='World'
 >>> x
@@ -16,7 +16,7 @@
 \- If assignment operator is combined with other operators then it is called as compound assignment operator.
 
 ### Example : 
-```
+```python
 >>> x=10
 >>> y=20
 >>> x+=y
@@ -32,7 +32,7 @@
 
 \- Increment and decrement operators are not allowed in python.
 ### Example :
-```
+```python
 >>> x=10
 >>> x++
 SyntaxError: invalid syntax
@@ -44,7 +44,7 @@ SyntaxError: invalid syntax
 --x or ++x will not give and error. It will simply be treated as -(-x) or +(+x).
 
 ### Example :
-```
+```python
 >>> --x
 10
 >>> ++x

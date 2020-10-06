@@ -9,7 +9,7 @@ Following are the bitwise operators
 Operator|Condition
 ---|---
 `&`| if both bits are True then result is True
-`|`| If any one bit is True then result is True
+\|| If any one bit is True then result is True
 `^`| x-or. If both bits are different then the result is 1 else 0
 `~`| Negation of bits. changes 0 to 1 and 1 to 0
 `<<`| Left shift operation

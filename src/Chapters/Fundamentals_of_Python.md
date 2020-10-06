@@ -17,7 +17,7 @@ for ex. Variables, classes, functions
 * Keywords cannot be used as identifiers
 * There is no lenght limit defined to declare an identifier.
 * Special symbols are not allowed (!,@,#,$,%,^,&,*,<,>,:,?,/,=,-)
-```
+```python
 >>> 123total					#not allowed
 >>> total123					#allowed
 >>> java2share					#allowed
@@ -47,7 +47,7 @@ There are 35 keywords in python.
 \- all keywords are in lowercase except True, False , None
 			
 ### To check all keywords,
-```
+```python
 >>> import keyword
 
 >>> keyword.kwlist
@@ -79,7 +79,7 @@ Null|None
 
 \- To check a type of object, we can use type() function.
 
-\- We will learn datatypes in detail in [Datatypes](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Datatypes.md) chapter.
+\- We will learn datatypes in detail in [Datatypes](src/Chapters/Datatypes.md) chapter.
 
 
 # Operators
@@ -90,11 +90,11 @@ Null|None
 
 Category|Operator
 --------|--------
-[Arithmetic](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Arithmetic%20operators.md)| +, -, *, /, %
-[Relational/Comparison](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Relational%20operators.md)|>, >=, <, <=, 
-[Equality](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Equality%20Operator.md) | ==, !=
-[Logical](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Logical%20operator.md)| and, or, not
-[Bitwise](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Bitwise%20operators.md)| &, \|, ^, ~, <<, >>
-[Assignment](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Assignment%20operator.md) | =
-[Special](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Special%20operators.md)| //, **, ternary
+[Arithmetic](src/Chapters/Arithmetic_operators.md)| +, -, *, /, %, //, **
+[Relational/Comparison](src/Chapters/Relational_operators.md)|>, >=, <, <=, 
+[Equality](src/Chapters/Equality_operators.md) | ==, !=
+[Logical](src/Chapters/Logical_operators.md)| and, or, not
+[Bitwise](src/Chapters/Bitwise_operators.md)| &, \|, ^, ~, <<, >>
+[Assignment](src/Chapters/Assignment_operator.md) | =
+[Special](src/Chapters/Special_operators.md)| is, is not, in , not in
 

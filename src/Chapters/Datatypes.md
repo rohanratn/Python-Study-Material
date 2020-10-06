@@ -14,27 +14,27 @@
 
 ### Decimal	:
 we can use digits from 0 to 9 to specify int value.
-```
+```python
 >>> a=10
 >>> b=20
 ```
 ### Binary	:
 We need to explicitely declare the binary value using \"0b or 0B\"
-```
+```python
 >>> a=0b1111
 >>> b=0B1111
 >>> type(a)
 <class 'int'>
 ```		
 Note : When you pass binary to int datatype, it automatically converts binary to int.
-```
+```python
 >>> a=0b1111
 >>> print(a)
 15
 ```
 ### Octal :
 We need to explicitely declare the octal value using \"0o or 0O\".
-```
+```python
 >>> a=0o1234
 >>> b=-O1234
 >>> print(a)
@@ -42,7 +42,7 @@ We need to explicitely declare the octal value using \"0o or 0O\".
 ```
 ### Hexadecimal :
 We neex to explicitely declare the hexadecimal value using \"0x or 0X\".
-```
+```python
 >>>	a=0xAF
 >>> print(a)
 175
@@ -54,7 +54,7 @@ We Can convert base of an int value to any of above type using following functio
 1. **bin()**
 2. **oct()**
 3. **hex()**
-```	
+```python	
 >>> a=10
 >>> bin(a)
 '0b1010'
@@ -67,7 +67,7 @@ We Can convert base of an int value to any of above type using following functio
 ## Float Datatype
 -	The only way to represent float values is using decimal values.
 -	binary, octal, hexadecimal values are not allowed.
-```
+```python
 >>> f=123.456	# allowed
 >>> f= 0b1111	# not allowed
 >>> f=0xFACE	# not allowed
@@ -84,7 +84,7 @@ where,
 	b=imaginary part
 	j= underroot -1
 Example : 
-```
+```python
 >>> x=10+2j
 >>> type(x)
 <class 'complex'>
@@ -98,7 +98,7 @@ x=a+2j		# allowed
 x=10+2.2j	# allowed
 ```			
 To get real and imaginary part of a complex number,
-```
+```python
 >>> x=10+2j
 >>> x.real
 10
@@ -112,7 +112,7 @@ To get real and imaginary part of a complex number,
 \- Allowed values are True and False (first letter of each is capital).
 
 Example :
-```
+```python
 >>> a=True
 >>> b=False
 >>> type(a)
@@ -135,7 +135,7 @@ False
 ## str Datatype 
 \- Any sequence of characters enclosed with single or double quotes is a string.
 Example :
-```
+```python
 >>> s='rohan'
 >>> str="Ratnaparkhi"
 >>> str
@@ -156,7 +156,7 @@ ratnaparkhi'''
 **syntax :** str['begin':'end':'step']
 
 Example :
-```
+```python
 >>> s='rohan ratnaparkhi'
 >>> s[1:4]
 'oha'
@@ -186,7 +186,7 @@ Example :
 ### Note : It can be used for numbers in range of 0 to 256
 
 Example :
-```
+```python
 >>> a=[1,2,3,4]
 >>> b=bytes(a)
 >>> b
@@ -194,7 +194,7 @@ b'\x01\x02\x03\x04'		# machine readable only
 >>> 
 ```
 To print elements 
-```
+```python
 >>> for i in b : print(i)
 
 1
@@ -204,7 +204,7 @@ To print elements
 >>> 
 ```
 We can use only numbers between 0 to 256, otherwise we will get compile time error.
-```
+```python
 >>> a=[1,2,3,257]
 >>> b=bytes(a)
 Traceback (most recent call last):
@@ -216,7 +216,7 @@ ValueError: bytes must be in range(0, 256)
 
 \- Bytes datatype is immutable. We cannot change the contents afterwards.
 Example :
-```
+```python
 >>> a=[1,2,3,4]
 >>> b=bytes(a)
 >>> b[1]
@@ -235,7 +235,7 @@ TypeError: 'bytes' object does not support item assignment
 
 \- We can change contents of bytearray	
 Example :
-```
+```python
 >>> a=[1,2,3,4]
 >>> b=bytearray(a)
 >>> b
@@ -263,13 +263,13 @@ bytearray(b'\x01\x02\x03\x04')
 \- List is a mutable datatype. We can change the contents of list.
 
 Syntax :
-```
+```python
 >>> list_name=[element1, element 2......]
 ```
 ### Note : items in list are separated by comma.
 
 Example :
-```
+```python
 >>> my_list=[1,2,3.4,10+20j]
 >>> my_list=[1,2,3.4,10+20j, 'Python']		# Heterogeneous elements
 >>> type(my_list)
@@ -289,7 +289,7 @@ Python
 \- List supports negative indexing
 
 Example :
-```
+```python
 >>> my_list
 [1, 2, 3.4, (10+20j), 'Python']
 >>> my_list[0]
@@ -301,7 +301,7 @@ Example :
 >>> 
 ```
 We can perform various operations on/with list datatype.
-Check [Lists](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/List%20in%20detail.md) chapter. 
+Check [Lists](src/Chapters/List_in_detail.md) chapter. 
 
 ## tuple datatype
 
@@ -314,11 +314,11 @@ Check [Lists](https://github.com/rohanratn/Python-Study-Material/blob/master/Cha
 \- Heterogeneous elements are allowed.
 
 **Syntax :** 
-```
+```python
 tuple_name=() 
 ```
 Example :
-```
+```python
 >>> my_tuple=(1,2,3.4,True, 'python')
 >>> type(my_tuple)
 <class 'tuple'>
@@ -328,7 +328,7 @@ Example :
 ```
 \- A tuple can have list as object and that list is muable.
 Example :
-```
+```python
 >>> my_tuple=(1,2,3,[4,5,6,7])
 >>> my_tuple
 (1, 2, 3, [4, 5, 6, 7])
@@ -340,7 +340,7 @@ Example :
 >>> 
 ```
 We can perform various operations on/with list datatype.
-Check [tuple](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/Tuple%20in%20detail.md) chapter. 
+Check [tuple](src/Chapters/Tuple_in_detail.md) chapter. 
 
 ## range Datatype
 
@@ -351,7 +351,7 @@ There are 3 format to specify a range.
 1. range(end_val)
 
 Example : 
-```
+```python
 >>> range(10)
 range(0, 10)
 >>> for i in range(10) : print (i)
@@ -374,7 +374,7 @@ range(0, 10)
 2. range(start_val,end_val)
 
 Example :
-```
+```python
 >>> for i in range(10,20) : print (i)
 
 10
@@ -396,7 +396,7 @@ Example :
 3. range(start_val,end_val,step)
 
 Example :
-```
+```python
 >>> for i in range(10,50,5) : print (i)
 
 10
@@ -416,7 +416,7 @@ Example :
 ## Set Datatype
 
 Syntax :
-```
+```python
 set_name={val1,val2...}
 ```
 Example :
@@ -433,7 +433,7 @@ Example :
 \- Set objects are not subscriptable
 
 Example :
-```
+```python
 >>> my_set[1]
 Traceback (most recent call last):
   File "<pyshell#22>", line 1, in <module>
@@ -445,7 +445,7 @@ TypeError: 'set' object is not subscriptable
 \- slicing is not allowed
 
 Example :
-```
+```python
 >>> my_set[1:2]
 Traceback (most recent call last):
   File "<pyshell#24>", line 1, in <module>
@@ -457,7 +457,7 @@ TypeError: 'set' object is not subscriptable
 \- Heterogeneous objects are allowed
 
 Example :
-```
+```python
 >>> my_set={1,2.3,'python',True}
 >>> my_set
 {2.3, 1, 'python'}
@@ -465,14 +465,14 @@ Example :
 ```
 
 \- Set is a growable datatype. We can add new elements in set according to need.
-Check [Sets in details](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/set%20in%20detail.md).
+Check [Sets in details](src/Chapters/sets_in_detail.md).
 
 ## Frozenset Datatype
 
 \- Frozenset is exactly same as set with immutability.
 
 Example :
-```
+```python
 >>> my_set
 {2.3, 1, 'python'}
 >>> fs=frozenset(my_set)
@@ -485,7 +485,7 @@ Traceback (most recent call last):
 AttributeError: 'frozenset' object has no attribute 'add'
 >>> 
 ```
-Check [frozenset in details](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/frozenset%20in%20detail.md).
+Check [frozenset in details](src/Chapters/frozenset_in_detail.md).
 
 ## dict Datatype
 
@@ -503,14 +503,14 @@ dict_name={key:value,key:value}
 \- Dictionary is mutable. We can add/remove elements from dictionary.
 
 Example :
-```
+```python
 >>> my_dict={1:'a',2:'b',3:'c'}
 >>> my_dict
 {1: 'a', 2: 'b', 3: 'c'}
 >>> my_dict[1]
 'a'
 ```
-\- check [dictionary](https://github.com/rohanratn/Python-Study-Material/blob/master/Chapters/dict%20in%20detail.md) chapter to learn details of dictionaries.
+\- check [dictionary](src/Chapters/Dictionaries_in_detail.md) chapter to learn details of dictionaries.
 
 ## None datatype
 
@@ -519,7 +519,7 @@ Example :
 \- when a function doesn't return anything, it returns None.
 
 Example :
-```
+```python
 >>> def my_function():
 	a=10
 

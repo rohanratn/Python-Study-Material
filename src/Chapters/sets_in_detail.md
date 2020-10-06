@@ -5,7 +5,7 @@ Syntax :
 set_name={val1,val2...}
 ```
 Example :
-```
+```python
 >>> my_set={1,2,3,4}
 >>> type(my_set)
 <class 'set'>
@@ -18,7 +18,7 @@ Example :
 \- Set objects are not subscriptable
 
 Example :
-```
+```python
 >>> my_set[1]
 Traceback (most recent call last):
   File "<pyshell#22>", line 1, in <module>
@@ -30,7 +30,7 @@ TypeError: 'set' object is not subscriptable
 \- slicing is not allowed
 
 Example :
-```
+```python
 >>> my_set[1:2]
 Traceback (most recent call last):
   File "<pyshell#24>", line 1, in <module>
@@ -42,7 +42,7 @@ TypeError: 'set' object is not subscriptable
 \- Heterogeneous objects are allowed
 
 Example :
-```
+```python
 >>> my_set={1,2.3,'python',True}
 >>> my_set
 {2.3, 1, 'python'}
@@ -57,7 +57,7 @@ Example :
 \- Adds an element to the set
 
 Example :
-```
+```python
 >>> my_set={1,2,3,4,5}
 >>> my_set
 {1, 2, 3, 4, 5}
@@ -71,7 +71,7 @@ Example :
 \- Removes all the elements from the set
 
 Example :
-```
+```python
 >>> copy_set
 {1, 2, 3, 4, 5, 6}
 >>> copy_set.clear()
@@ -84,7 +84,7 @@ set()
 \- Returns a copy of the set
 
 Example :
-```
+```python
 >>> my_set
 {1, 2, 3, 4, 5, 6}
 >>> copy_set=my_set.copy()
@@ -97,7 +97,7 @@ Example :
 \- Returns a set containing the difference between two or more sets
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 4, 5, 6}
 >>> set2
@@ -113,7 +113,7 @@ Example :
 \- Removes the items in this set that are also included in another, specified set
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 4, 5, 6}
 >>> set2
@@ -128,7 +128,7 @@ Example :
 \- Remove the specified item
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 4, 5, 6}
 >>> set1.remove(4)
@@ -141,7 +141,7 @@ Example :
 \- Returns a set, that is the intersection of two other sets
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 5, 6}
 >>> set2
@@ -155,7 +155,7 @@ Example :
 \- Removes the items in this set that are not present in other, specified set(s)
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 5, 6}
 >>> set2
@@ -170,7 +170,7 @@ Example :
 \- Returns whether two sets have a intersection or not
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 4, 5}
 >>> set2
@@ -188,7 +188,7 @@ True
 \- Returns whether another set contains this set or not
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 4, 5}
 >>> set4
@@ -204,7 +204,7 @@ False
 \- Returns whether this set contains another set or not
 
 Example :
-```
+```python
 >>> x = {"f", "e", "d", "c", "b", "a"}
 >>> y = {"a", "b", "c"}
 >>> z = x.issuperset(y) 
@@ -216,7 +216,7 @@ True
 \- Removes an element from the set
 
 Example :
-```
+```python
 >>> set1
 {3, 4, 5, 6, 7, 8}
 >>> set1.pop()
@@ -230,7 +230,7 @@ Example :
 \- Removes the specified element
 
 Example :
-```
+```python
 >>> set1
 {5, 6, 7, 8}
 >>> set1.remove(6)
@@ -243,7 +243,7 @@ Example :
 \- Returns a set with the symmetric differences of two sets
 
 Example :
-```
+```python
 >>> x = {"apple", "banana", "cherry"}
 >>> y = {"google", "microsoft", "apple"}
 >>> z = x.symmetric_difference(y) 
@@ -255,7 +255,7 @@ Example :
 \- inserts the symmetric differences from this set and another
 
 Example :
-```
+```python
 >>> x = {"apple", "banana", "cherry"}
 >>> y = {"google", "microsoft", "apple"}
 >>> x.symmetric_difference_update(y) 
@@ -267,7 +267,7 @@ Example :
 \- Return a set containing the union of sets
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 5, 7, 8}
 >>> set2
@@ -281,7 +281,7 @@ Example :
 \- Update the set with the union of this set and others
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 5, 7, 8}
 >>> set2
@@ -295,7 +295,7 @@ Example :
 ### Note : discard() and remove() methods work exactly same however only difference is, if passed argument is not present in the set, discard() method will not raise an exception but remove() will raise an exception.
 
 Example :
-```
+```python
 >>> set1
 {1, 2, 3, 4, 5, 6, 7, 8}
 >>> set1.discard(10)
