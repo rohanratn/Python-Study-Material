@@ -20,7 +20,7 @@ or|If any one of the argument is true then result is true
 not| it is the negaton of passed argument
 
 ### Example 1:
-```
+```python
 >>> True and True
 True
 >>> True and False
@@ -31,7 +31,7 @@ False
 ```
 
 ### Example 2:
-```
+```python
 >>> True or False
 True
 >>> False or False
@@ -42,7 +42,7 @@ True
 ```
 
 ### Example 3:
-```
+```python
 >>> not False
 True
 >>> not True
@@ -62,7 +62,7 @@ Empty String|False
 
 ### Example 1: x and y
 Condition : if x evaluates to False then return x otherwise return y.
-```
+```python
 >>> 0 and 2
 0
 >>> 1 and 2
@@ -80,7 +80,7 @@ Condition : if x evaluates to False then return x otherwise return y.
 
 ### Example 2: x or y
 Condition : if x evaluates to True then return x value otherwise return y value.
-```
+```python
 >>> 1 or 0
 1
 >>> 0 or 1
@@ -98,7 +98,7 @@ Condition : if x evaluates to True then return x value otherwise return y value.
 
 ### Example 3:  not x
 Contition : if x value evaluates to True then return False. If it evaluates to False then return True.
-```
+```python
 >>> not 1
 False
 >>> not 0

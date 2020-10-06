@@ -10,7 +10,7 @@
 	
 	
 ## int()
-```
+```python
 >>>	int(123.456)	(float to int allowed)
 123
 >>> int(10+2j)		(complex to int not allowed)
@@ -25,7 +25,7 @@ error
 ```		
 		
 ## float()
-```		
+```python		
 >>>	float(10)		(int to float allowed)
 10.0
 >>>	float(10+2j)	(complex to float not allowed)
@@ -40,7 +40,7 @@ error
 ```		
 
 ## complex()
-```
+```python
 >>> complex(10)		(int to complex allowed)
 10+0j
 >>>	complex(10,20)
@@ -55,7 +55,7 @@ error
 ```
 
 ## bool()
-```		
+```python		
 >>> bool(0)			(0 is false)
 False
 >>>	bool(10)		(non zero is True)
@@ -81,7 +81,7 @@ True
 ## str()
 str() can convert any type to string. There are no restrictions for str.
 ### Note :  all fundamental datatypes are immutable in python.
-```	
+```python	
 >>> x=10
 >>> y=10
 >>> id(x)

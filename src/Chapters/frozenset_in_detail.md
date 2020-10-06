@@ -3,7 +3,7 @@
 \- Frozen set is just an immutable version of a Python set object. While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
 
 Example :
-```
+```python
 >>> my_set
 {2.3, 1, 'python'}
 >>> fs=frozenset(my_set)
@@ -23,7 +23,7 @@ AttributeError: 'frozenset' object has no attribute 'add'
 \- create a copy of frozenset.
 
 Example :
-```
+```python
 >>> fs2=fs.copy()
 >>> fs2
 frozenset({1, 2, 3, 4, 5, 6, 7, 8})
@@ -33,7 +33,7 @@ frozenset({1, 2, 3, 4, 5, 6, 7, 8})
 ### 2. difference()
 \- shows the difference between two or more sets.
 
-```
+```python
 >>> fs2
 frozenset({1, 2, 3, 4, 5, 6, 7, 8})
 >>> fs3
@@ -47,7 +47,7 @@ frozenset({1, 2})
 \- shows the intersection between two or more sets
 
 Example :
-```
+```python
 >>> fs2
 frozenset({1, 2, 3, 4, 5, 6, 7, 8})
 >>> fs3
@@ -61,7 +61,7 @@ frozenset({3, 4, 5, 6, 7, 8})
 \- Returns whether two sets have a intersection or not
 
 Example :
-```
+```python
 >>> fs
 frozenset({1, 2, 10, 9})
 >>> fs3
@@ -75,7 +75,7 @@ True
 \- Returns whether another set contains this set or not
 
 Example :
-```
+```python
 >>> fs2
 frozenset({1, 2, 3, 4, 5, 6, 7, 8})
 >>> fs3
@@ -89,7 +89,7 @@ True
 \- Returns whether this set contains another set or not
 
 Example :
-```
+```python
 >>> fs2
 frozenset({1, 2, 3, 4, 5, 6, 7, 8})
 >>> fs3
@@ -103,7 +103,7 @@ True
 \- Returns a set with the symmetric differences of two sets
 
 Example :
-```
+```python
 >>> fs
 frozenset({1, 2, 10, 9})
 >>> fs2
@@ -117,7 +117,7 @@ frozenset({3, 4, 5, 6, 7, 8, 9, 10})
 \- Return a set containing the union of sets 
 
 Example :
-```
+```python
 >>> fs
 frozenset({1, 2, 10, 9})
 >>> fs2

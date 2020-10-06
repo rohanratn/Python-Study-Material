@@ -10,7 +10,7 @@ Operator|Purpose
 `>=` | Greater than equal to
 
 ### Example :
-```
+```python
 >>> a=10
 >>> b=2
 >>> a<b
@@ -27,7 +27,7 @@ True
 ### Note 
 1. Relational operators always give boolean result.
 2. If relatinal operators are used with string, it will be compared on the basis of alphabetical order and ASCII code will be compared.
-```
+```python
 >>> a='Python'
 >>> b='World'
 >>> a>b
@@ -41,7 +41,7 @@ True
 >>> 
 ```
 3. If all the arguments passed are thrue then only it returns thrue. If any one argument is false then the result is false.
-```
+```python
 >>> a=10
 >>> b=20
 >>> c=30

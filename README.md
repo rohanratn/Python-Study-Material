@@ -30,7 +30,7 @@
 
 * [Assignment Operator](src/Chapters/Assignment_operator.md)(`=`)
 
-* [Relational Operators](src/Chapters/ChaptersRelational_operators.md)(`<`,`<=`,`>`,`>=`)
+* [Relational Operators](src/Chapters/Relational_operators.md)(`<`,`<=`,`>`,`>=`)
 
 * [Logical Operators](src/Chapters/Logical_operators.md)(`and`,`or`,`not`)
 

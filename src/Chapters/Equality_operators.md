@@ -7,7 +7,7 @@ There are only two operators used to compare equality.
 You can apply equality operators with any type of data.
 
 ### Example :
-```
+```python
 >>> a=10
 >>> b=20
 >>> c=30
@@ -40,7 +40,7 @@ False|False|True
 Flase|True|False
 
 Example :
-```
+```python
 >>> True==True
 True
 >>> True==False

@@ -13,7 +13,7 @@ Operator|Purpose
 **|Power
 
 ### Example :
-```
+```python
 >>> a=10
 >>> b=2
 >>> print(a+b)
@@ -33,14 +33,14 @@ Operator|Purpose
 >>>     
 ```
 ### Note 1: addition operator is also used for string concatenation as follows.
-```
+```python
 >>> a='Hello'
 >>> b='World'
 >>> print(a+" "+b)
 Hello World
 ```
 ### Note 2: Multiplication operator can be used with string as follows.
-```
+```python
 >>> print(a*3)
 HelloHelloHello
 >>>
