@@ -4,10 +4,10 @@
 
 Operator|Purpose
 --------|-------
-<|Less than
-<=| Less than equal to
->| Greater than
->=| Greater than equal to
+`<`|Less than
+`<=` | Less than equal to
+`>` | Greater than
+`>=` | Greater than equal to
 
 ### Example :
 ```
