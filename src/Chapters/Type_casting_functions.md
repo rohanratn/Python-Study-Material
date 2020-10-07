@@ -11,54 +11,54 @@
 	
 ## int()
 ```python
->>>	int(123.456)	(float to int allowed)
+>>>	int(123.456)	#(float to int allowed)
 123
->>> int(10+2j)		(complex to int not allowed)
+>>> int(10+2j)		#(complex to int not allowed)
 error
->>>	int(True)		(bool to int allowed)
+>>>	int(True)		#(bool to int allowed)
 1
->>>	int(string)		(string to int not allowed)
+>>>	int(string)		#(string to int not allowed)
 error
->>>	int('10')		(value as a string allowed)
+>>>	int('10')		#(value as a string allowed)
 10
->>>	int("10.2")		(only int value as a string allowed)
+>>>	int("10.2")		#(only int value as a string allowed)
 ```		
 		
 ## float()
 ```python		
->>>	float(10)		(int to float allowed)
+>>>	float(10)		#(int to float allowed)
 10.0
->>>	float(10+2j)	(complex to float not allowed)
+>>>	float(10+2j)	#(complex to float not allowed)
 error
->>>	float(True)		(bool to float allowed)
+>>>	float(True)		#(bool to float allowed)
 1.0
->>> float('rohan')	(string to float not allowed)
+>>> float('rohan')	#(string to float not allowed)
 error
->>>	float("10.2")	(value as a string allowed)
+>>>	float("10.2")	#(value as a string allowed)
 10.2
->>> float("0b1111")	(not allowed)
+>>> float("0b1111")	#(not allowed)
 ```		
 
 ## complex()
 ```python
->>> complex(10)		(int to complex allowed)
+>>> complex(10)		#(int to complex allowed)
 10+0j
 >>>	complex(10,20)
 10+20j
->>>	complex(True)	(bool to complex allowed)
+>>>	complex(True)	#(bool to complex allowed)
 1+0j
 >>> complex(False)
 0j
->>> complex("10")	(value as a string allowed)
+>>> complex("10")	#(value as a string allowed)
 10+0j
->>> complex('ten')	(string to complex not allowed)
+>>> complex('ten')	#(string to complex not allowed)
 ```
 
 ## bool()
 ```python		
->>> bool(0)			(0 is false)
+>>> bool(0)			#(0 is false)
 False
->>>	bool(10)		(non zero is True)
+>>>	bool(10)		#(non zero is True)
 True
 >>>	bool(10.20)
 True
@@ -90,5 +90,5 @@ str() can convert any type to string. There are no restrictions for str.
 1234
 >>> x=20
 >>> id(x)
-1235				(new object created)
+1235				#(new object created)
 ```
