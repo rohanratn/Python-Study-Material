@@ -41,12 +41,15 @@
 * [Operator Precedence](src/Chapters/Operators_precedence)
 
 ### 10. Control Flow 
+- Conditional/selection statements
+    * [The `if` statement](src/Chapters/IF_statement.md) 
+- Iterative statements
+    * [The `for` statement](src/Chapters/FOR_statement.md)
+    * [The `while` statement](src/Chapters/WHILE_statement.md)
 
-* [The `if` statement](src/Chapters/IF_statement.md)
-* [The `for` statement](src/Chapters/FOR_statement.md)
-* [The `while` statement](src/Chapters/WHILE_statement.md)
-* [The `try` statement](src/Chapters/TRY_statement.md)
-* [The `break` statement](src/Chapters/BREAK_statement.md)
-* [The `continue` statement](src/Chapters/CONTINUE_statement.md)
+- Transfer statements
+    * [The `try` statement](src/Chapters/TRY_statement.md)
+    * [The `break` statement](src/Chapters/BREAK_statement.md)
+    * [The `continue` statement](src/Chapters/CONTINUE_statement.md)
 
 
