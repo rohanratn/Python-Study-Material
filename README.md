@@ -6,7 +6,7 @@
 
 * [Introduction to python](/src/Chapters/Introduction_to_Python.md) 
 
-* [How to install and setup Python](src/ChaptersHow_to_setup_and_install_Python)
+* [How to install and setup Python](src/Chapters/How_to_setup_and_install_Python)
 
 * [Fundamentals of Python](src/Chapters//Fundamentals_of_Python.md)
 
