@@ -40,7 +40,11 @@
 
 * [Operator Precedence](src/Chapters/Operators_precedence)
 
-### 10. Control Flow 
+### 10. Input, output and command line arguments
+- [Input and Output](src/Chapters/input_and_output_functions.md)
+- [Command Line arguments](src/Chapters/Command_line_arguments.md)
+
+### 11. Control Flow 
 - Conditional/selection statements
     * [The `if` statement](src/Chapters/IF_statement.md) 
 - Iterative statements
