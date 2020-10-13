@@ -52,7 +52,7 @@
     * [The `while` statement](src/Chapters/WHILE_statement.md)
 
 - Transfer statements
-    * [The `try` statement](src/Chapters/TRY_statement.md)
+    * [The `try-except-finally` statement (Exception handling)](src/Chapters/TRY_statement.md)
     * [The `break` statement](src/Chapters/BREAK_statement.md)
     * [The `continue` statement](src/Chapters/CONTINUE_statement.md)
 
