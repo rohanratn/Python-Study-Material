@@ -19,7 +19,7 @@ finally :
     default-statements        
 ```
 
-A critical statement is onw which can possibly generate an error. For example a division by zero.
+A critical statement is one which can possibly generate an error. For example a division by zero.
 
 ### Example :
 ```python
