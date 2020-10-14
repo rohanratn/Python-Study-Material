@@ -6,7 +6,7 @@
 
 * [Introduction to python](/src/Chapters/Introduction_to_Python.md) 
 
-* [How to install and setup Python](src/ChaptersHow_to_setup_and_install_Python)
+* [How to install and setup Python](src/Chapters/How_to_setup_and_install_Python.md)
 
 * [Fundamentals of Python](src/Chapters//Fundamentals_of_Python.md)
 
@@ -40,13 +40,20 @@
 
 * [Operator Precedence](src/Chapters/Operators_precedence)
 
-### 10. Control Flow 
+### 10. Input, output and command line arguments
+- [Input and Output](src/Chapters/input_and_output_functions.md)
+- [Command Line arguments](src/Chapters/Command_line_arguments.md)
 
-* [The `if` statement](src/Chapters/IF_statement.md)
-* [The `for` statement](src/Chapters/FOR_statement.md)
-* [The `while` statement](src/Chapters/WHILE_statement.md)
-* [The `try` statement](src/Chapters/TRY_statement.md)
-* [The `break` statement](src/Chapters/BREAK_statement.md)
-* [The `continue` statement](src/Chapters/CONTINUE_statement.md)
+### 11. Control Flow 
+- Conditional/selection statements
+    * [The `if` statement](src/Chapters/IF_statement.md) 
+- Iterative statements
+    * [The `for` statement](src/Chapters/FOR_statement.md)
+    * [The `while` statement](src/Chapters/WHILE_statement.md)
+
+- Transfer statements
+    * [The `try-except-finally` statement (Exception handling)](src/Chapters/TRY_statement.md)
+    * [The `break` statement](src/Chapters/BREAK_statement.md)
+    * [The `continue` statement](src/Chapters/CONTINUE_statement.md)
 
 
