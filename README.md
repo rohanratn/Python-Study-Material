@@ -56,4 +56,6 @@
     * [The `break` statement](src/Chapters/BREAK_statement.md)
     * [The `continue` statement](src/Chapters/CONTINUE_statement.md)
 
+### 12. [Functions](src/Chapters/functions)
+### 13. Object Oriented Programming in Python
 
